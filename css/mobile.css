@@ -1,0 +1,35 @@
+.side-bar {
+    position: relative;
+    width: 100%;
+    float: none;
+}
+
+.main {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main .article-list {
+    margin: 0;
+
+}
+
+.side-bar .nav,
+.side-bar .tag-list {
+    text-align: center;
+    display: none;
+}
+
+#menu-checkbox:checked~.nav,
+#menu-checkbox:checked~.tag-list {
+    display: block;
+}
+
+#menu-toggle {
+    background-image: url(img/001.png);
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
